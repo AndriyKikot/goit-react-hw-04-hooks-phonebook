@@ -1,0 +1,33 @@
+.contact__item {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.contact__item:not(:last-of-type) {
+  margin-bottom: 20px;
+}
+
+.contact__info {
+  width: 70%;
+  text-align: left;
+  display: flex;
+  justify-content: space-between;
+  margin: 0;
+}
+
+.contact__infoNumber {
+  font-style: italic;
+}
+
+.btn__delete {
+  background: transparent;
+  border: none;
+  color: gold;
+  cursor: pointer;
+}
+
+.btn__delete:hover {
+  color: red;
+  transition: 0.2s;
+}
